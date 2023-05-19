@@ -1,0 +1,40 @@
+.galeria {
+  display: grid;
+  gap: 10px;
+}
+
+.grid-columns-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.galeria .photo {
+  cursor: pointer;
+  padding: 30px 30px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  text-shadow: 0px 0px 15px black;
+  border: 1px solid black;
+}
+
+.galeria .photo:hover {
+  box-shadow: 0px 0px 3px 3px rgb(0, 0, 0);
+}
+
+.galeria .photo svg {
+  align-self: flex-end;
+ 
+}
+
+.p-3 {
+  padding: 30px;
+}

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #5c0036;
+  font-size: 25px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
